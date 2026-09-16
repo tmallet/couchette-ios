@@ -50,4 +50,9 @@ public struct Cabin: Identifiable, Hashable, Sendable {
         self.bookingURL = bookingURL
         self.cabinClass = cabinClass
     }
+
+    /// External Safari booking CTA (title + URL) for the detail screen.
+    public var bookingCTA: BookingCTA {
+        .continuer(url: bookingURL)
+    }
 }

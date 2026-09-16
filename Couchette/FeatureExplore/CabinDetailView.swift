@@ -75,14 +75,19 @@ struct CabinDetailView: View {
         .couchetteGlassCard()
     }
 
+    private var bookingCTA: BookingCTA {
+        cabin.bookingCTA
+    }
+
     private var cta: some View {
         VStack(spacing: 8) {
             Button {
                 openBooking()
             } label: {
-                Label("Continuer", systemImage: "arrow.up.right.square")
+                Label(bookingCTA.title, systemImage: "arrow.up.right.square")
             }
             .buttonStyle(PrimaryCTAButtonStyle())
+            .accessibilityHint("Ouvre le site de l’opérateur dans Safari")
 
             Text("Ouvre le site de réservation \(op?.name ?? "opérateur")")
                 .font(.caption)
@@ -93,7 +98,7 @@ struct CabinDetailView: View {
     }
 
     private func openBooking() {
-        openURL(cabin.bookingURL) { accepted in
+        openURL(bookingCTA.url) { accepted in
             if !accepted {
                 showURLError = true
             }

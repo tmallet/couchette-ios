@@ -11,7 +11,6 @@ final class ExploreViewModel {
     var cabins: [Cabin] = []
     var selectedCabinClass: Cabin.CabinClass? = nil
     var isLoading = false
-    var loadError: String?
 
     init(repository: ExploreRepository) {
         self.repository = repository
@@ -42,7 +41,6 @@ final class ExploreViewModel {
 
     func load() async {
         isLoading = true
-        loadError = nil
         defer { isLoading = false }
         operators = await repository.operators()
         routes = await repository.routes()

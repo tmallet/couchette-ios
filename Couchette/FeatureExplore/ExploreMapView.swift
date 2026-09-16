@@ -14,7 +14,7 @@ struct ExploreMapView: View {
 
     var body: some View {
         Map(initialPosition: westernEurope) {
-            ForEach(viewModel.routes) { route in
+            ForEach(visibleRoutes) { route in
                 Annotation(route.title, coordinate: route.coordinate.clLocationCoordinate) {
                     RouteMapPin(
                         route: route,
@@ -47,20 +47,28 @@ struct ExploreMapView: View {
             .pickerStyle(.segmented)
             .padding(.horizontal)
 
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 12) {
-                    ForEach(visibleRoutes) { route in
-                        RouteChip(
-                            route: route,
-                            op: viewModel.operator(for: route)
-                        ) {
-                            if let cabin = viewModel.primaryCabin(for: route) {
-                                path.append(cabin.id)
+            if visibleRoutes.isEmpty {
+                Text("Aucun pin pour ce filtre")
+                    .font(.caption.weight(.medium))
+                    .foregroundStyle(.secondary)
+                    .frame(maxWidth: .infinity)
+                    .accessibilityLabel("Aucun pin pour ce filtre")
+            } else {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 12) {
+                        ForEach(visibleRoutes) { route in
+                            RouteChip(
+                                route: route,
+                                op: viewModel.operator(for: route)
+                            ) {
+                                if let cabin = viewModel.primaryCabin(for: route) {
+                                    path.append(cabin.id)
+                                }
                             }
                         }
                     }
+                    .padding(.horizontal)
                 }
-                .padding(.horizontal)
             }
         }
         .padding(.vertical, 10)
