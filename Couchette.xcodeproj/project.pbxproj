@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10000000000000000000001 /* CouchetteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* CouchetteApp.swift */; };
+		C10000000000000000000002 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Operator.swift */; };
+		C10000000000000000000003 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Route.swift */; };
+		C10000000000000000000004 /* Cabin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* Cabin.swift */; };
+		C10000000000000000000005 /* BookingCTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* BookingCTA.swift */; };
+		C10000000000000000000006 /* ExploreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* ExploreRepository.swift */; };
+		C10000000000000000000007 /* MockExploreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* MockExploreRepository.swift */; };
+		C10000000000000000000008 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* Colors.swift */; };
+		C10000000000000000000009 /* Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* Materials.swift */; };
+		C1000000000000000000000A /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* ExploreViewModel.swift */; };
+		C1000000000000000000000B /* ExploreMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* ExploreMapView.swift */; };
+		C1000000000000000000000C /* CabinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* CabinDetailView.swift */; };
+		C1000000000000000000000D /* ExploreRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* ExploreRootView.swift */; };
+		C1000000000000000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* CouchetteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchetteApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* Cabin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabin.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* BookingCTA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCTA.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* ExploreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRepository.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* MockExploreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExploreRepository.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materials.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* ExploreMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreMapView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* CabinDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinDetailView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* ExploreRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRootView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000006 /* Couchette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Couchette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* Couchette */,
+				A10000000000000000000018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000011 /* Couchette */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000012 /* App */,
+				A10000000000000000000013 /* Domain */,
+				A10000000000000000000014 /* Data */,
+				A10000000000000000000015 /* DesignSystem */,
+				A10000000000000000000016 /* FeatureExplore */,
+				A10000000000000000000017 /* Resources */,
+			);
+			path = Couchette;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000012 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* CouchetteApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000013 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* Operator.swift */,
+				B10000000000000000000003 /* Route.swift */,
+				B10000000000000000000004 /* Cabin.swift */,
+				B10000000000000000000005 /* BookingCTA.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000014 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000006 /* ExploreRepository.swift */,
+				B10000000000000000000007 /* MockExploreRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000015 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000008 /* Colors.swift */,
+				B10000000000000000000009 /* Materials.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000016 /* FeatureExplore */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000A /* ExploreViewModel.swift */,
+				B1000000000000000000000B /* ExploreMapView.swift */,
+				B1000000000000000000000C /* CabinDetailView.swift */,
+				B1000000000000000000000D /* ExploreRootView.swift */,
+			);
+			path = FeatureExplore;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000017 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000006 /* Couchette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000002 /* Couchette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000021 /* Build configuration list for PBXNativeTarget "Couchette" */;
+			buildPhases = (
+				A10000000000000000000003 /* Sources */,
+				A10000000000000000000005 /* Frameworks */,
+				A10000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Couchette;
+			productName = Couchette;
+			productReference = A10000000000000000000006 /* Couchette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A10000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000020 /* Build configuration list for PBXProject "Couchette" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = A10000000000000000000010;
+			productRefGroup = A10000000000000000000018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000002 /* Couchette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1000000000000000000000E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000001 /* CouchetteApp.swift in Sources */,
+				C10000000000000000000002 /* Operator.swift in Sources */,
+				C10000000000000000000003 /* Route.swift in Sources */,
+				C10000000000000000000004 /* Cabin.swift in Sources */,
+				C10000000000000000000005 /* BookingCTA.swift in Sources */,
+				C10000000000000000000006 /* ExploreRepository.swift in Sources */,
+				C10000000000000000000007 /* MockExploreRepository.swift in Sources */,
+				C10000000000000000000008 /* Colors.swift in Sources */,
+				C10000000000000000000009 /* Materials.swift in Sources */,
+				C1000000000000000000000A /* ExploreViewModel.swift in Sources */,
+				C1000000000000000000000B /* ExploreMapView.swift in Sources */,
+				C1000000000000000000000C /* CabinDetailView.swift in Sources */,
+				C1000000000000000000000D /* ExploreRootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Couchette;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchette.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Couchette;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchette.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000020 /* Build configuration list for PBXProject "Couchette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000022 /* Debug */,
+				A10000000000000000000023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000021 /* Build configuration list for PBXNativeTarget "Couchette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000024 /* Debug */,
+				A10000000000000000000025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
